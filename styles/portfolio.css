@@ -29,27 +29,34 @@
 	border-radius: 5px;
 	cursor: pointer;
 }
-.section-heading{
+.section-heading {
 	max-width: 827px;
 	text-align: center;
 	margin: 0 auto;
 }
-.section-heading h2{
+.section-heading h2 {
 	font-size: 35px;
 	margin-bottom: 30px;
 }
-.section-heading p{
+.section-heading p {
 	font-size: 18px;
 	color: #757575;
 	line-height: 30px;
 	margin-bottom: 30px;
 }
 
+.text-center{
+	text-align: center;
+}
+
 /* Main Style */
 
 header {
-	background: url(../images/developer.png), url(../images/header_bg.png), #fff8f3;
-	background-position: top left, bottom right;
+	background:
+		url(../images/developer.png), url(../images/header_bg.png), #fff8f3;
+	background-position:
+		top left,
+		bottom right;
 	background-repeat: no-repeat;
 	padding-top: 50px;
 }
@@ -99,67 +106,110 @@ nav .nav-menu a {
 	line-height: 30px;
 	margin-bottom: 30px;
 }
-#banner .banner-image img{
+#banner .banner-image img {
 	max-width: 585px;
 	vertical-align: middle;
 }
 
-#about{
+/* About Parts */
+#about,
+#skills,
+#resume {
 	padding-top: 130px;
 }
-#about .about-container{
+#about .about-container {
 	width: 71%;
 	max-width: 1140px;
 	margin: 0 auto;
 	text-align: center;
-	background-color: #FFF8F3;
+	background-color: #fff8f3;
 	padding: 131px 156px;
 }
-#about .about-container .about-info{
+#about .about-container .about-info {
 	display: flex;
 	justify-content: space-around;
 }
-.about-info .info-card p{
+.about-info .info-card p {
 	font-size: 20px;
 	line-height: 30px;
 	color: #757575;
 }
-.about-info .info-card h4{
+.about-info .info-card h4 {
 	font-size: 20px;
 	line-height: 30px;
 	color: #474747;
 }
 
-
-#skills{
-	padding-top: 130px;
-}
-#skills .skills-container{
+/* Skills Parts */
+#skills .skills-container {
 	width: 71%;
 	max-width: 1140px;
 	margin: 0 auto;
 }
-#skills .skills-container .skill-box{
+#skills .skills-container .skill-box {
 	display: flex;
 	gap: 24px;
 }
-.skill-box .skill-card{
+.skill-box .skill-card {
 	padding: 30px;
 	max-width: 267px;
 	box-shadow: 0 6px 50px 0 #00000027;
 	border-radius: 5px;
 }
-.skill-card img{
+.skill-card img {
 	width: 44px;
 	margin-bottom: 30px;
 }
-.skill-card h3{
+.skill-card h3 {
 	margin-bottom: 20px;
 	font-size: 20px;
 	color: #181818;
 }
-.skill-card p{
+.skill-card p {
 	line-height: 28px;
 	font-size: 16px;
 	color: #757575;
+}
+
+/* Resume Parts */
+
+#resume .resume-container {
+	width: 71%;
+	max-width: 1140px;
+	margin: 113px auto 0;
+	display: flex;
+	gap: 24px;
+}
+
+.resume-container hr {
+	margin: 30px 0;
+}
+
+.resume-container .section-title {
+	color: #474747;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.resume-card {
+	max-width: 511px;
+	margin-right: 47px;
+}
+.resume-card .card-title {
+	color: #474747;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.resume-card .card-info {
+	color: #757575;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.resume-card .card-text {
+	color: #757575;
+	font-size: 16px;
+	line-height: 28px;
+}
+.download-btn{
+	margin-top: 50px;
 }
