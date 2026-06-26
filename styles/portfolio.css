@@ -45,7 +45,7 @@
 	margin-bottom: 30px;
 }
 
-.text-center{
+.text-center {
 	text-align: center;
 }
 
@@ -55,7 +55,7 @@ header {
 	background:
 		url(../images/developer.png), url(../images/header_bg.png), #fff8f3;
 	background-position:
-		top left,
+		23px 38px,
 		bottom right;
 	background-repeat: no-repeat;
 	padding-top: 50px;
@@ -210,6 +210,52 @@ nav .nav-menu a {
 	font-size: 16px;
 	line-height: 28px;
 }
-.download-btn{
+.download-btn {
 	margin-top: 50px;
+}
+
+/* Footer Section Starts Here */
+
+footer {
+	margin-top: 130px;
+	padding: 130px 0;
+	background-color: #fff8f3;
+}
+
+.footer-container {
+	width: 71%;
+	max-width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	gap: 116px;
+}
+
+.footer-container h2 {
+	font-size: 35px;
+	font-weight: bold;
+	color: #181818;
+	margin-bottom: 20px;
+}
+.footer-container .social p {
+	font-size: 16px;
+	line-height: 28px;
+	color: #474747;
+	margin-bottom: 30px;
+}
+
+.footer-container .social {
+	max-width: 512px;
+}
+
+.footer-container .icons a {
+	margin-right: 24px;
+}
+.footer-container form input[type="text"],
+.footer-container form textarea {
+	width: 461px;
+	padding: 18px 31px;
+	margin-bottom: 24px;
+	border: none;
+	border-radius: 5px;
+	color: #757575;
 }
